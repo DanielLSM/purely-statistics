@@ -1,0 +1,1 @@
+# A repository to easily compute statistical information on streams of data
