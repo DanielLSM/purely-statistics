@@ -23,12 +23,12 @@ def arrays_to_pmf(ndarray1, ndarray2, bins):
     return a_pdf, b_pdf
 
 
-def KL(cls, ndarray1, ndarray2, bins=50):
+def KL(ndarray1, ndarray2, bins=50):
     p, q = arrays_to_pmf(ndarray1, ndarray2, bins)
     return entropy(p, qk=q)
 
 
-def KS(cls, ndarray1, ndarray2):
+def KS(ndarray1, ndarray2):
     """
     Kolmogorov-Smirnov statistic
 
